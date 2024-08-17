@@ -3,7 +3,7 @@ package com.ravi.ShowTimeHub.Mapper;
 import com.ravi.ShowTimeHub.Dto.UserDto;
 import com.ravi.ShowTimeHub.Entity.User;
 
-public class UserMapper {
+public class UserMapperImpl {
 
     public static UserDto toDto(User user){
     UserDto dto = new UserDto();
